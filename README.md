@@ -45,3 +45,6 @@ The application will automatically open in your default web browser at `http://l
 
 ## 📝 License
 This project is open-source and available under the MIT License.
+
+## output
+<img width="1600" height="716" alt="Image" src="https://github.com/user-attachments/assets/e43d3465-378e-4d0b-b397-abbd36bb33f0" />
