@@ -11,7 +11,7 @@ Built with **Streamlit** for the frontend and **LangChain** for the AI orchestra
 - **Strict Prompt Engineering**: Engineered to prevent hallucinations. The AI will only answer based on the provided document context and will explicitly state if the answer is not found.
 - **Source References**: Automatically appends the source filename to the information it provides.
   
-- ## 🏗️ System Architecture
+## 🏗️ System Architecture
 PDF Document
       |
       ↓
