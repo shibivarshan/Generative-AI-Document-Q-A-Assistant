@@ -74,18 +74,18 @@ LLM generates the final response
 
 ## 🎯 Use Cases
 
-Document analysis
-Knowledge assistants
-Research support
-Enterprise document search
-Internal company Q&A systems
+Document analysis.
+Knowledge assistants.
+Research support.
+Enterprise document search.
+Internal company Q&A systems.
 
 ## 📌 Future Improvements
 
-Multi-document conversation memory
-Better document ranking
-Cloud deployment
-User authentication
+Multi-document conversation memory.
+Better document ranking.
+Cloud deployment.
+User authentication.
 
 ## 👨‍💻 Author
 Shibivarshan
