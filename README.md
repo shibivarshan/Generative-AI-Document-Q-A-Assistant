@@ -10,9 +10,10 @@ Built with **Streamlit** for the frontend and **LangChain** for the AI orchestra
 - **High-Quality Embeddings**: Leverages OpenAI Embeddings with a local FAISS vector database for fast and precise context retrieval.
 - **Strict Prompt Engineering**: Engineered to prevent hallucinations. The AI will only answer based on the provided document context and will explicitly state if the answer is not found.
 - **Source References**: Automatically appends the source filename to the information it provides.
-  
+
 ## 🏗️ System Architecture
 
+```text
 User Uploads PDF
         |
         ▼
@@ -41,7 +42,7 @@ LLM (GPT)
         |
         ▼
 Context-Aware Response
-
+```
 
 ## 🚀 Quick Start
 
