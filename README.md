@@ -12,13 +12,13 @@ Built with **Streamlit** for the frontend and **LangChain** for the AI orchestra
 - **Source References**: Automatically appends the source filename to the information it provides.
   
 ## 🏗️ System Architecture
-PDF Document
+- PDF Document
+-       |
+-       ↓
+- Text Extraction
       |
       ↓
-Text Extraction
-      |
-      ↓
-Text Chunking
+- Text Chunking
       |
       ↓
 Embedding Generation
