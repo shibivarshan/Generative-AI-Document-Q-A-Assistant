@@ -78,12 +78,12 @@ The application will automatically open in your default web browser at `http://l
 - **AI Models**: OpenAI (`gpt-3.5-turbo`, `text-embedding-3-small`)
 
 ## 📂 Project Workflow
-User uploads a document
-Document content is extracted and processed
-Text is divided into meaningful chunks
-Embeddings are generated
-Vector search retrieves relevant information
-LLM generates the final response
+- User uploads a document
+- Document content is extracted and processed
+- Text is divided into meaningful chunks
+- Embeddings are generated
+- Vector search retrieves relevant information
+- LLM generates the final response
 
 ## 🎯 Use Cases
 
