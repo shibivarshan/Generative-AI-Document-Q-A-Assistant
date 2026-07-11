@@ -10,6 +10,26 @@ Built with **Streamlit** for the frontend and **LangChain** for the AI orchestra
 - **High-Quality Embeddings**: Leverages OpenAI Embeddings with a local FAISS vector database for fast and precise context retrieval.
 - **Strict Prompt Engineering**: Engineered to prevent hallucinations. The AI will only answer based on the provided document context and will explicitly state if the answer is not found.
 - **Source References**: Automatically appends the source filename to the information it provides.
+- **🏗️ System Architecture**
+PDF Document
+      |
+      ↓
+Text Extraction
+      |
+      ↓
+Text Chunking
+      |
+      ↓
+Embedding Generation
+      |
+      ↓
+FAISS Vector Database
+      |
+      ↓
+Similarity Search
+      |
+      ↓
+LLM Response Generation
 
 ## 🚀 Quick Start
 
@@ -42,6 +62,30 @@ The application will automatically open in your default web browser at `http://l
 - **LLM Framework**: [LangChain](https://www.langchain.com/)
 - **Vector Store**: [FAISS](https://github.com/facebookresearch/faiss)
 - **AI Models**: OpenAI (`gpt-3.5-turbo`, `text-embedding-3-small`)
+- **📂 Project Workflow**
+User uploads a document
+Document content is extracted and processed
+Text is divided into meaningful chunks
+Embeddings are generated
+Vector search retrieves relevant information
+LLM generates the final response
+
+**🎯 Use Cases**
+Document analysis
+Knowledge assistants
+Research support
+Enterprise document search
+Internal company Q&A systems
+
+**📌 Future Improvements**
+Multi-document conversation memory
+Better document ranking
+Cloud deployment
+User authentication
+
+**👨‍💻 Author**
+Shibivarshan
+Generative AI Engineer
 
 ## 📝 License
 This project is open-source and available under the MIT License.
