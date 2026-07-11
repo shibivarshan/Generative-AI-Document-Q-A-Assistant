@@ -12,37 +12,35 @@ Built with **Streamlit** for the frontend and **LangChain** for the AI orchestra
 - **Source References**: Automatically appends the source filename to the information it provides.
   
 ## 🏗️ System Architecture
-PDF Document
-      
-      |
-      ↓
 
+User Uploads PDF
+        |
+        ▼
+Document Processing
+        |
+        ▼
 Text Extraction
-      
-      |
-      ↓
-
+        |
+        ▼
 Text Chunking
-      
-      |
-      ↓
-
-Embedding Generation
-     
-      |
-      ↓
-
+        |
+        ▼
+OpenAI Embeddings
+        |
+        ▼
 FAISS Vector Database
-     
-      |
-      ↓
-
+        |
+        ▼
 Similarity Search
-     
-      |
-      ↓
-
-LLM Response Generation
+        |
+        ▼
+LangChain RAG Pipeline
+        |
+        ▼
+LLM (GPT)
+        |
+        ▼
+Context-Aware Response
 
 
 ## 🚀 Quick Start
