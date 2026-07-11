@@ -44,13 +44,14 @@ Similarity Search
 
 LLM Response Generation
 
+
 ## 🚀 Quick Start
 
-### 1. Prerequisites
+**1. Prerequisites**
 - Python 3.8+
 - An OpenAI API Key
 
-### 2. Installation
+**2. Installation**
 Clone the repository and install the dependencies:
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
@@ -58,12 +59,12 @@ cd your-repo-name
 pip install -r requirements.txt
 ```
 
-### 3. Configuration
+**3. Configuration**
 Set up your OpenAI API key. You can do this in two ways:
 - **Environment Variable**: Rename `.env.example` to `.env` and paste your API key inside.
 - **In-App**: You can simply run the app and paste the API key directly into the sidebar UI.
 
-### 4. Run the Application
+**4. Run the Application**
 Start the Streamlit server:
 ```bash
 python -m streamlit run app.py
